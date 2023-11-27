@@ -1,0 +1,101 @@
+body{
+
+    background-color:rgb(66, 55, 66);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.mainDiv{
+
+    background-color:aliceblue;
+    width: 500px;
+    height: 430px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+}
+
+.mainDiv div {
+
+    /* background-color: rgb(187, 187, 110); */
+    height: 80px;
+}
+
+.mainDiv .userInfo {
+
+    /* background-color: aquamarine; */
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.userInfo div {
+    background: black;
+    height: 50px;
+    width: 450px;
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+.User-items {
+    padding:5px;
+    margin-bottom: 50px;
+}
+
+.User-items div {
+
+    /* background-color: rgb(97, 61, 61); */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+
+}
+.User-items input{
+
+    width: 100px;
+    height: 20px;
+}
+
+.User-items p{
+    margin-top: 1px;
+    background-color: antiquewhite;
+    height: 20px;
+}
+
+.totalPrice {
+
+    width: 10px;
+
+}
+.totalPrice p {
+
+    width: 140px;
+    padding: 10px;  
+    text-align: center;  
+}
+
+ .addItems {
+
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+ }
+    
+
+
+.saveItems button {
+
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
